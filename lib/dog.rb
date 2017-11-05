@@ -17,7 +17,7 @@
 class Dog
 
   def initialize(name)
-    @name = fido
+    @name = "fido"
   end
 
   def name
