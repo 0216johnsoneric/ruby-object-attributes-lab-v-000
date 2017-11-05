@@ -1,11 +1,12 @@
 class Dog
-  def initialize(name)
-    @name = name
+ def name=(dogs_name)
+    @name = dogs_name
   end
+
   def name
-   @name
- end
+    @this_dogs_name
+  end
 end
 
 fido = Dog.new("fido")
-fido.name 
+fido.name
