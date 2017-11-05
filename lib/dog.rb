@@ -14,18 +14,28 @@
 #
 # puts lassie.name
 
+# class Dog
+# 
+#   def initialize(name)
+#     @name = name
+#   end
+# 
+#   def name
+#     @name
+#   end
+# end
+# 
+# fido = Dog.new
+# fido.name = "fido"
+# 
+# fido.name
+
 class Dog
-
-  def initialize(name)
-    @name = name
+  def name=(dog_name)
+    this_dogs_name = dog_name
   end
-
+ 
   def name
-    @name
+    this_dogs_name
   end
 end
-
-fido = Dog.new
-fido.name = "fido"
-
-fido.name
